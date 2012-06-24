@@ -57,7 +57,13 @@ public class testCases {
 	}
 	
 	public static void main(String[] args) {
-		addFeedAndStartService();
+		//addFeedAndStartService();
+		try {
+			timeTest();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
